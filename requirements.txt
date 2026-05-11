@@ -1,0 +1,9 @@
+# Core
+pyserial>=3.5          # For serial/COM port harvesting
+numpy>=1.24.0          # For pulse/binary array handling
+bitarray>=2.8.0        # Efficient binary manipulation
+
+# Optional for advanced
+scipy>=1.10.0          # If you do signal processing (resonance)
+pyusb>=1.2.0           # For USB device harvesting
+pyaudio>=0.2.11        # If resonance uses audio coil (mic/speaker)
